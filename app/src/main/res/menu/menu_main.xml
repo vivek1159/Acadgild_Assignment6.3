@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.vivek.assignment62.MainActivity">
+
+    <item
+        android:id="@+id/action_Color"
+        android:orderInCategory="1"
+        android:title="TEXT COLOR"
+        app:showAsAction="always">
+
+        <menu>
+
+            <item
+                android:id="@+id/action_Blue"
+                android:orderInCategory="1"
+                android:title="Blue"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/action_Green"
+                android:orderInCategory="2"
+                android:title="Green"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/action_Red"
+                android:orderInCategory="3"
+                android:title="Red"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+</menu>
+
